@@ -23,6 +23,12 @@ public class Airthmetic_Operators {
         result = a % b;
         System.out.println("The Modulus of a and b is : " +result);
 
+        result = ++a;
+        System.out.println("The Pre-Increement of a is : " +result);
+
+        result = --a;
+        System.out.println("The Pre-Decreement of a is : " +result);
+
 
     }
 }
