@@ -1,4 +1,4 @@
-package ClassProgram;
+
 
 public class Airthmetic_Operators {
     public static void main(String[] args){

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CalculateResult {
+public class Calculate_Result {
     public static void main(String[] args){
        System.out.println("Calculate Your Result ");
        float totalMarks = 400;
