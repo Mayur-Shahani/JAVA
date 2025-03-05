@@ -1,47 +1,48 @@
-package OOP_Lab_2_Task;
 
-class Book{
+
+class book{
+
     private String title;
     private String author;
     private boolean isIssued = false;
 
-    Book(String title1, String author){
-        title = title1;
-        author = author;
+    book(String title, String author)
+    {
+        this.title = title;
+        this.author = author;
     }
 
-    void issueBook(){
+    void issueBook()
+    {
         isIssued = true;
         System.out.println("Is Issued");
     }
 
-    void returnBook(){
+    void returnBook()
+    {
         isIssued = false;
-        System.out.println("Is Returned");
+        System.out.println("is Available");
     }
 
-    void showStatus(){
+    void showStatus()
+    {
         if(isIssued)
         {
             System.out.println("The book is issued");
         }
         else
         {
-            System.out.println("The book is returned and available");
+            System.out.println("The book is available");
         }
-
     }
-
-
-
 }
-public class Library_Book_Management {
+
+
+public class Library_Book_Management{
     public static void main(String[] args) {
-        Book b = new Book("helo","araf");
-        b.issueBook();
-        b.returnBook();
-        b.showStatus();
+        book bk = new book("Harry Potter","Araf");
+        bk.issueBook();
+        bk.returnBook();
+        bk.showStatus();
     }
-    
-   
 }
