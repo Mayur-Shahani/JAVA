@@ -7,10 +7,10 @@ public class Calculate_Result {
        System.out.print("Enter Your Marks : ");
         Scanner m = new Scanner(System.in);
 
-       float sub1 = m.nextFloat();
-       float sub2 = m.nextFloat();
-       float sub3 = m.nextFloat();
-       float sub4 = m.nextFloat();
+       float subt1 = m.nextFloat();
+       float subt2 = m.nextFloat();
+       float subt3 = m.nextFloat();
+       float subt4 = m.nextFloat();
 
        float obtainedMarks = sub1 + sub2 + sub3 + sub4;
        System.out.print("Your Obtained Marks is : ");
