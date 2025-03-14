@@ -1,4 +1,4 @@
-public class BankAccount {
+public class Bank_Account {
     String accountNumber ;
     double balance = 60000.0;
 
