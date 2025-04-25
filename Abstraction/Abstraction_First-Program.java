@@ -27,10 +27,10 @@ class Lion extends Animal{
 class Abstraction_First_Program{
     public static void main(String[] args)
     {
-        Animal d = new Dog();
+        Animal a = new Dog();
         Animal e = new Cat();
         Animal f = new Lion();
-        d.sound();
+        a.sound();
         e.sound();
         f.sound();
     }
