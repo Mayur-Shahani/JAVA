@@ -28,10 +28,10 @@ class Abstraction_First_Program{
     public static void main(String[] args)
     {
         Animal a = new Dog();
-        Animal e = new Cat();
-        Animal f = new Lion();
+        Animal b = new Cat();
+        Animal c = new Lion();
         a.sound();
-        e.sound();
-        f.sound();
+        b.sound();
+        c.sound();
     }
 }
