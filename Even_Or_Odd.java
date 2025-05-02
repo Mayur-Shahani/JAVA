@@ -8,7 +8,7 @@ public class Even_Or_Odd{
 
         if(x % 2 == 0)
         {
-            System.out.println(x + "is Even");
+            System.out.println(x + Is Even");
         }
         else
         {
