@@ -25,7 +25,7 @@ void showStatus()
     }
    }
 }
-public class Light_Bulb {
+public class LightBulb {
     public static void main(String[] args) {
         light l = new light();
         l.turnOn();
