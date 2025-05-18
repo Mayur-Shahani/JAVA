@@ -38,7 +38,7 @@ class book{
 }
 
 
-public class Library_Book_Management{
+public class LibraryBookManagement{
     public static void main(String[] args) {
         book bk = new book("Harry Potter","Araf");
         bk.issueBook();
