@@ -4,33 +4,33 @@ class Temp {
     private float temp;
 
     void celsius(float value) {
-        temp = value;  // Store Celsius directly
+        temp = value;  
     }
 
     void setfaren(float value) {
-        temp = (value - 32) * (5.0f / 9);  // Convert Fahrenheit to Celsius before storing
+        temp = (value - 32) * (5.0f / 9);  
     }
 
-    void Tofaren() {  // Convert stored Celsius to Fahrenheit
+    void Tofaren() {  
         float faren1 = (temp * (9.0f / 5.0f)) + 32;
         System.out.println("Converted to Fahrenheit: " + faren1 + "°F");
     }
 
-    void toCel() {  // Convert stored Fahrenheit (in Celsius form) to Celsius
+    void toCel() {  
         System.out.println("Stored Temperature in Celsius: " + temp + "°C");
     }
 
-    void show() {  // Show stored temperature
+    void show() { 
         System.out.println("Stored temperature: " + temp + "°C");
     }
 }
 
-public class Tempreture_Converter{
+public class TemperatureConverter{
     public static void main(String[] args) {
         Temp tem = new Temp();
         Scanner scan = new Scanner(System.in);
 
-        while (true) {  // Loop to allow multiple choices
+        while (true) {  
             System.out.println("\n1. Store in Celsius");
             System.out.println("2. Store in Fahrenheit");
             System.out.println("3. Convert to Fahrenheit");
