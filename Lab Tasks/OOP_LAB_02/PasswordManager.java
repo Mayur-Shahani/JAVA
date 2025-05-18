@@ -28,7 +28,7 @@ class PasswordMan{
     }
 }
 
-public class Password_Manager{
+public class PasswordManager{
     public static void main(String[] args) {
         PasswordMan p = new PasswordMan();
         p.changePassword("Alignment","Pakistan");
