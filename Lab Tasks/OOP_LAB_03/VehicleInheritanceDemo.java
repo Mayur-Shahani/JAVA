@@ -15,7 +15,7 @@ class Car extends Vehicle{
 }
 
 
-public class Question_1{
+public class VehicleInheritanceDemo{
     public static void main(String[] args) {
 
        Car cr = new Car();
