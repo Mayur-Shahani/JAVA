@@ -13,7 +13,7 @@ class calcul{
         System.out.println(res);
     }
 }
-public class Use_Of_Polymorphorism {
+public class UseOfPolymorphism {
     public static void main(String[] args) {
         calcul c1 = new calcul();
         c1.add(45, 55);
