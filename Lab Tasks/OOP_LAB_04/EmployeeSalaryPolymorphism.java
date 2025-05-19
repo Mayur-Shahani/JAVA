@@ -12,7 +12,7 @@ class Manager extends Employee{
     void calculateSalary()
     {
         int baseSalary = 5000;
-        System.out.println(baseSalary + baseSalary*50);
+        System.out.println("Manager Salary with 50% Bonus : " + (baseSalary + baseSalary*0.50));
     }
 }
 
@@ -21,10 +21,10 @@ class Developer extends Employee{
     void calculateSalary()
     {
         int baseSalary = 4000;
-        System.out.println(baseSalary + baseSalary*30);
+        System.out.println("Developer Salary with 30% Bonus : " + (baseSalary + baseSalary*0.30));
     }
 }
-public class Question_2 {
+public class EmployeeSalaryPolymorphism {
     public static void main(String[] args) {
         Developer d = new Developer();
          d.calculateSalary();
