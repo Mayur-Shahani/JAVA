@@ -23,7 +23,7 @@ public class PalindromeChecker {
 
         // Check if original word and reversed word are the same
         if (word.equals(reversed)) {
-            System.out.println("It is a palindrome");
+            System.out.println("It is  palindrome");
         } else {
             System.out.println("It is not a palindrome");
         }
