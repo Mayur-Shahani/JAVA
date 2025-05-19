@@ -1,6 +1,6 @@
 package OOP_LAB;
 
-public class Task6 {
+public class ArraySumCalculator{
     public static void main(String[] args) {
         int arr[] = {3,5,7,9,12};
         int sum = 0;
