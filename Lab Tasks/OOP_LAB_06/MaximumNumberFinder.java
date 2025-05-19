@@ -1,6 +1,6 @@
 package OOP_LAB;
 import java.util.Scanner;
-public class Task5 {
+public class MaximumNumberFinder {
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
        System.out.print("Enter First Number : ");
