@@ -14,9 +14,9 @@ public class BookStackDemo {
         System.out.println(book.pop());
 
         System.out.println("Remaining Books ");
-        for(String e : book)
+        for(String b : book)
         {
-            System.out.println(e);
+            System.out.println(b);
         }
     }
 }
