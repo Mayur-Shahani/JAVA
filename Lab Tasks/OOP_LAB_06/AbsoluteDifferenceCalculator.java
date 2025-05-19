@@ -1,7 +1,7 @@
 package OOP_LAB;
 
 import java.util.Scanner;
-public class Task4 {
+public class AbsoluteDifferenceCalculator {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
