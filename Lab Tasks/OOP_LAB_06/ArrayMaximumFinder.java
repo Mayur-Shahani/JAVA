@@ -1,6 +1,6 @@
 package OOP_LAB;
 
-public class Task7 {
+public class ArrayMaximumFinder {
     public static void main(String[] args) {
         int arr[] = {4,7,9,23,56};
         int max = arr[0];
