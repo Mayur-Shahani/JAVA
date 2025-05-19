@@ -15,7 +15,7 @@ class Employee{
         System.out.println("Employee ID is : " + id + " and Employee Name is : " + name);
     }
 }
-public class Question_4 {
+public class EmployeeDetailsOverloading {
     public static void main(String[] args) {
         Employee e2 = new Employee();
         e2.printDetails(43);
