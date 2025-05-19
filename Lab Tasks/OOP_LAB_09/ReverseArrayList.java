@@ -6,7 +6,7 @@ public class ReverseArrayList {
         list.add(56);
         list.add(45);
         list.add(67);
-        list.add(98);
+        list.add(99);
         list.add(34);
        
         System.out.println("Original List ");
