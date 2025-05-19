@@ -14,11 +14,11 @@ class Employee{
     }
     
 }
-public class Q1{
+public class HighestSalaryEmployee{
     public static void main(String[] args) {
         ArrayList<Employee> arr = new ArrayList<Employee>();
 
-        arr.add(new Employee(1, "Mayur", 50000));
+        arr.add(new Employee(1, "Mayur", 55000));
        arr.add(new Employee(2, "Araf", 45000));
        arr.add(new Employee(3, "Rafay", 40000));
 
