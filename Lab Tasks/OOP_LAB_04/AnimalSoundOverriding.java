@@ -13,7 +13,7 @@ class Cat extends Dog{
         System.out.println("Meow Meow");
     }
 }
-public class Question_3 {
+public class AnimalSoundOverriding {
     public static void main(String[] args) {
         Cat c1 = new Cat();
         c1.makeSound();
