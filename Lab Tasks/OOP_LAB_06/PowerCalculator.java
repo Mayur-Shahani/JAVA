@@ -5,7 +5,7 @@ class Power{
         return (int)Math.pow(baseNum, expNum);
     }
 }
-public class Task3{
+public class PowerCalculator{
     public static void main(String[] args){
         Power p = new Power();
         System.out.println(p.Square(3,3));
