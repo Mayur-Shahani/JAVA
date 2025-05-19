@@ -1,4 +1,4 @@
-public class Question_5 {
+public class FinalFieldExample {
     class Person {
         final String name; 
     
@@ -6,7 +6,10 @@ public class Question_5 {
             this.name = name;
         }
         void changeName(String newName) {
-            // this.name = newName; //
+            
+             //  Error: cannot assign a value to final variable 'name'
+            // this.name = newName; 
+             // This line will cause compile-time error because 'name' is final
         }
     
         void display() {
@@ -26,6 +29,4 @@ public class Question_5 {
 }
         
         
-3        
-    }
-}
+
