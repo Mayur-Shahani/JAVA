@@ -26,10 +26,10 @@ class Rectangle extends Shape{
     }
 
 }
-public class q4 {
+public class ShapeAreaCalculator {
     public static void main(String[] args) {
        Shape r = new Rectangle();
-       r.getArea();
+      r.getArea();
 
        Shape s = new Circle();
        s.getArea();
