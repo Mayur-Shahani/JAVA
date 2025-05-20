@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class q2 {
+public class LinkedListDeletionDemo {
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<>();
 
