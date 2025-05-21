@@ -1,4 +1,3 @@
-package Thread;
 import java.time.LocalTime;
 
  class SimpleClock extends Thread{
@@ -20,7 +19,7 @@ import java.time.LocalTime;
         }
  }
 }
-public class SimpleClockThread {
+public class RealTimeClock {
     public static void main(String[] args) {
         SimpleClock sc = new SimpleClock();
         sc.start();
